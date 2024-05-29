@@ -1,5 +1,36 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* HEADER */
+.header {
+  padding: 10px 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(228, 226, 226);
+}
+
+.header h1 {
+  font: bolder 40px sans-serif;
+  color: rgb(72, 66, 66);
+}
+
+/* MAIN */
+.main {
+  padding: 10px 20%;
+  background-color: rgb(181, 207, 141);
+}
+
+.main > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h3 {
+  font: bolder 40px sans-serif;
+  color: rgb(72, 66, 66);
 }
