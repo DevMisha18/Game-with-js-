@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 /* HEADER */
 .header {
   padding: 10px 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
   background-color: rgb(228, 226, 226);
 }
 
@@ -32,5 +37,39 @@
 
 .main h3 {
   font: bolder 40px sans-serif;
+  color: rgb(72, 66, 66);
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image-container .image {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.main p {
+  font: 30px sans-serif;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5%;
+  background-color: rgb(228, 226, 226);
+}
+
+.footer p {
+  font: bolder 20px sans-serif;
   color: rgb(72, 66, 66);
 }
